@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
+
+.noute-book {
+    border: 3px solid black;
+    width: 1270px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.keyboard {
+    width: 1240px;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+.screen {
+    width: 1240px;
+    margin-bottom: 30px;
+    padding: 10px;
+    min-height: 400px;
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+.key {
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 900;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.key:hover {
+    background-color: rgb(63, 237, 179);
+    cursor: pointer;
+    color: black;
+}
+
+.twokey {
+    width: 150px;
+}
+
+.tabl {
+    width: 650px;
+}
+
+.dark {
+    background-color: rgb(221, 117, 117);
+}
+
+.press {
+    color: black;
+    background-color: rgb(63, 237, 179);
+    box-shadow: 2px 2px 10px 5px red;
+}
+
+.press-up {
+    background-color: red;
+    transition-duration: 2s;
+}
