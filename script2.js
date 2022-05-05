@@ -4,67 +4,67 @@ const data = {
         {
             "key": "`",
             "id": "Backquote",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "1",
             "id": "Digit1",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "2",
             "id": "Digit2",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "3",
             "id": "Digit3",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "4",
             "id": "Digit4",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "5",
             "id": "Digit5",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "6",
             "id": "Digit6",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "7",
             "id": "Digit7",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "8",
             "id": "Digit8",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "9",
             "id": "Digit9",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "0",
             "id": "Digit0",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "-",
             "id": "Minus",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "=",
             "id": "Equal",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "<-",
@@ -79,67 +79,67 @@ const data = {
         {
             "key": "q",
             "id": "KeyQ",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "w",
             "id": "KeyW",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "e",
             "id": "KeyE",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "r",
             "id": "KeyR",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "t",
             "id": "KeyT",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "y",
             "id": "KeyY",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "u",
             "id": "KeyU",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "i",
             "id": "KeyI",
-            "class": "key  "
+            "class": "key letter  change"
         },
         {
             "key": "o",
             "id": "KeyO",
-            "class": "key  "
+            "class": "key  letter change"
         },
         {
             "key": "p",
             "id": "KeyP",
-            "class": "key  "
+            "class": "key letter  change"
         },
         {
             "key": "[",
             "id": "BracketLeft",
-            "class": "key  "
+            "class": "key  change "
         },
         {
             "key": "]",
             "id": "BracketRight",
-            "class": "key  "
+            "class": "key  change "
         },
         {
             "key": "\\",
             "id": "Backslash",
-            "class": "key  "
+            "class": "key  change "
         },
         {
             "key": "Del",
@@ -154,57 +154,57 @@ const data = {
         {
             "key": "a",
             "id": "KeyA",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "s",
             "id": "KeyS",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "d",
             "id": "KeyD",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "f",
             "id": "KeyF",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "g",
             "id": "KeyG",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "h",
             "id": "KeyH",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "j",
             "id": "KeyJ",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "k",
             "id": "KeyK",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "l",
             "id": "KeyL",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": ";",
             "id": "Semicolon",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "'",
             "id": "Quote",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "Enter",
@@ -219,52 +219,52 @@ const data = {
         {
             "key": "z",
             "id": "KeyZ",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "x",
             "id": "KeyX",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "c",
             "id": "KeyC",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "v",
             "id": "KeyV",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "b",
             "id": "KeyB",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "n",
             "id": "KeyN",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": "m",
             "id": "KeyM",
-            "class": "key"
+            "class": "key letter change"
         },
         {
             "key": ",",
             "id": "Comma",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": ".",
             "id": "Period",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "/",
             "id": "Slash",
-            "class": "key"
+            "class": "key change"
         },
         {
             "key": "/\\",
@@ -319,64 +319,64 @@ const data = {
     ],
     "ru": [
         {
-            "key": "`",
+            "key": "ё",
             "id": "Backquote",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "1",
             "id": "Digit1",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "2",
             "id": "Digit2",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "3",
             "id": "Digit3",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "4",
             "id": "Digit4",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "5",
             "id": "Digit5",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "6",
             "id": "Digit6",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "7",
             "id": "Digit7",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "8",
             "id": "Digit8",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "9",
             "id": "Digit9",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "0",
             "id": "Digit0",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "-",
             "id": "Minus",
-            "class": "key"
+            "class": "key "
         },
         {
             "key": "=",
@@ -396,62 +396,67 @@ const data = {
         {
             "key": "й",
             "id": "KeyQ",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "ц",
             "id": "KeyW",
-            "class": "key  "
+            "class": "key letter-ru  change-ru"
         },
         {
             "key": "у",
             "id": "KeyE",
-            "class": "key  "
+            "class": "key letter-ru  change-ru"
         },
         {
             "key": "к",
             "id": "KeyR",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "е",
             "id": "KeyT",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "н",
             "id": "KeyY",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "г",
             "id": "KeyU",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "ш",
             "id": "KeyI",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "щ",
             "id": "KeyO",
-            "class": "key  "
+            "class": "key letter-ru change-ru "
         },
         {
             "key": "з",
             "id": "KeyP",
-            "class": "key  "
+            "class": "key  letter-ru change-ru"
         },
         {
             "key": "х",
             "id": "BracketLeft",
-            "class": "key  "
+            "class": "key letter-ru  change-ru"
         },
         {
             "key": "ъ",
+            "id": "BracketRight",
+            "class": "key  letter-ru change-ru"
+        },
+        {
+            "key": "\\",
             "id": "Backslash",
-            "class": "key  "
+            "class": "key  change "
         },
         {
             "key": "Del",
@@ -466,57 +471,57 @@ const data = {
         {
             "key": "ф",
             "id": "KeyA",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "ы",
             "id": "KeyS",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "в",
             "id": "KeyD",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "а",
             "id": "KeyF",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "п",
             "id": "KeyG",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "р",
             "id": "KeyH",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "о",
             "id": "KeyJ",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "л",
             "id": "KeyK",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "д",
             "id": "KeyL",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "ж",
             "id": "Semicolon",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "э",
             "id": "Quote",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "Enter",
@@ -531,374 +536,57 @@ const data = {
         {
             "key": "я",
             "id": "KeyZ",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "ч",
             "id": "KeyX",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "с",
             "id": "KeyC",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "м",
             "id": "KeyV",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "и",
             "id": "KeyB",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "т",
             "id": "KeyN",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "ь",
             "id": "KeyM",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "б",
             "id": "Comma",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": "ю",
             "id": "Period",
-            "class": "key"
+            "class": "key letter-ru change-ru"
         },
         {
             "key": ".",
             "id": "Slash",
-            "class": "key"
+            "class": "key change-ru"
         },
         {
             "key": "/\\",
             "id": "ArrowUp",
-            "class": "key"
-        },
-        {
-            "key": "Shift",
-            "id": "ShiftRight",
-            "class": "key dark twokey"
-        },
-        {
-            "key": "Control",
-            "id": "ControlLeft",
-            "class": "key dark twokey"
-        },
-        {
-            "key": "Alt",
-            "id": "AltLeft",
-            "class": "key dark "
-        },
-        {
-            "key": "tabl",
-            "id": "Space",
-            "class": "key dark tabl"
-        },
-        {
-            "key": "Alt",
-            "id": "AltRight",
-            "class": "key dark "
-        },
-        {
-            "key": "<-",
-            "id": "ArrowLeft",
-            "class": "key dark "
-        },
-        {
-            "key": "\\/",
-            "id": "ArrowDown",
-            "class": "key dark "
-        },
-        {
-            "key": "->",
-            "id": "ArrowRight",
-            "class": "key dark "
-        },
-        {
-            "key": "Control",
-            "id": "ControlRight",
-            "class": "key dark twokey"
-        }
-    ],
-    "enShift": [
-        {
-            "key": "~",
-            "id": "Backquote",
-            "class": "key"
-        },
-        {
-            "key": "!",
-            "id": "Digit1",
-            "class": "key"
-        },
-        {
-            "key": "@",
-            "id": "Digit2",
-            "class": "key"
-        },
-        {
-            "key": "#",
-            "id": "Digit3",
-            "class": "key"
-        },
-        {
-            "key": "$",
-            "id": "Digit4",
-            "class": "key"
-        },
-        {
-            "key": "%",
-            "id": "Digit5",
-            "class": "key"
-        },
-        {
-            "key": "^",
-            "id": "Digit6",
-            "class": "key"
-        },
-        {
-            "key": "&",
-            "id": "Digit7",
-            "class": "key"
-        },
-        {
-            "key": "*",
-            "id": "Digit8",
-            "class": "key"
-        },
-        {
-            "key": "(",
-            "id": "Digit9",
-            "class": "key"
-        },
-        {
-            "key": ")",
-            "id": "Digit0",
-            "class": "key"
-        },
-        {
-            "key": "_",
-            "id": "Minus",
-            "class": "key"
-        },
-        {
-            "key": "+",
-            "id": "Equal",
-            "class": "key"
-        },
-        {
-            "key": "<-",
-            "id": "Backspace",
-            "class": "key dark twokey"
-        },
-        {
-            "key": "Tab",
-            "id": "Tab",
-            "class": "key dark "
-        },
-        {
-            "key": "Q",
-            "id": "KeyQ",
-            "class": "key  "
-        },
-        {
-            "key": "W",
-            "id": "KeyW",
-            "class": "key  "
-        },
-        {
-            "key": "E",
-            "id": "KeyE",
-            "class": "key  "
-        },
-        {
-            "key": "R",
-            "id": "KeyR",
-            "class": "key  "
-        },
-        {
-            "key": "T",
-            "id": "KeyT",
-            "class": "key  "
-        },
-        {
-            "key": "Y",
-            "id": "KeyY",
-            "class": "key  "
-        },
-        {
-            "key": "U",
-            "id": "KeyU",
-            "class": "key  "
-        },
-        {
-            "key": "I",
-            "id": "KeyI",
-            "class": "key  "
-        },
-        {
-            "key": "O",
-            "id": "KeyO",
-            "class": "key  "
-        },
-        {
-            "key": "P",
-            "id": "KeyP",
-            "class": "key  "
-        },
-        {
-            "key": "{",
-            "id": "BracketLeft",
-            "class": "key  "
-        },
-        {
-            "key": "}",
-            "id": "BracketRight",
-            "class": "key  "
-        },
-        {
-            "key": "|",
-            "id": "Backslash",
-            "class": "key  "
-        },
-        {
-            "key": "Del",
-            "id": "NumpadDecimal",
-            "class": "key dark "
-        },
-        {
-            "key": "CapsLock",
-            "id": "CapsLock",
-            "class": "key dark twokey"
-        },
-        {
-            "key": "A",
-            "id": "KeyA",
-            "class": "key"
-        },
-        {
-            "key": "S",
-            "id": "KeyS",
-            "class": "key"
-        },
-        {
-            "key": "D",
-            "id": "KeyD",
-            "class": "key"
-        },
-        {
-            "key": "F",
-            "id": "KeyF",
-            "class": "key"
-        },
-        {
-            "key": "G",
-            "id": "KeyG",
-            "class": "key"
-        },
-        {
-            "key": "H",
-            "id": "KeyH",
-            "class": "key"
-        },
-        {
-            "key": "J",
-            "id": "KeyJ",
-            "class": "key"
-        },
-        {
-            "key": "K",
-            "id": "KeyK",
-            "class": "key"
-        },
-        {
-            "key": "L",
-            "id": "KeyL",
-            "class": "key"
-        },
-        {
-            "key": ":",
-            "id": "Semicolon",
-            "class": "key"
-        },
-        {
-            "key": "\"",
-            "id": "Quote",
-            "class": "key"
-        },
-        {
-            "key": "Enter",
-            "id": "Enter",
-            "class": "key dark twokey"
-        },
-        {
-            "key": "Shift",
-            "id": "ShiftLeft",
-            "class": "key dark twokey"
-        },
-        {
-            "key": "Z",
-            "id": "KeyZ",
-            "class": "key"
-        },
-        {
-            "key": "X",
-            "id": "KeyX",
-            "class": "key"
-        },
-        {
-            "key": "C",
-            "id": "KeyC",
-            "class": "key"
-        },
-        {
-            "key": "V",
-            "id": "KeyV",
-            "class": "key"
-        },
-        {
-            "key": "B",
-            "id": "KeyB",
-            "class": "key"
-        },
-        {
-            "key": "N",
-            "id": "KeyN",
-            "class": "key"
-        },
-        {
-            "key": "M",
-            "id": "KeyM",
-            "class": "key"
-        },
-        {
-            "key": "<",
-            "id": "Comma",
-            "class": "key"
-        },
-        {
-            "key": ">",
-            "id": "Period",
-            "class": "key"
-        },
-        {
-            "key": "?",
-            "id": "Slash",
-            "class": "key"
-        },
-        {
-            "key": "/\\",
-            "id": "ArrowUp",
-            "class": "key"
+            "class": "key dark"
         },
         {
             "key": "Shift",
@@ -946,53 +634,127 @@ const data = {
             "class": "key dark "
         }
     ],
-
+    "enShift": ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "{", "}", "|", "A", "S",
+        "D", "F", "G", "H", "J", "K", "L", ":", "\"", "Z", "X", "C", "V", "B", "N", "M", "<", ">", "?"],
+    "CapsLock": ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Z", "X", "C", "V", "B", "N", "M"],
+    "ruCapsLock": ["Ё", "Й", "Ц", "У", "К", "Е", "Н", "Г", "Ш", "Щ", "З", "Х", "Ъ", "Ф", "Ы", "В", "А", "П", "Р", "О", "Л", "Д", "Ж", "Э", "Я", "Ч", "С", "М", "И", "Т", "Ь", "Б", "Ю"],
+    "enShiftRu": ["Ё", "!", "\"", "№", ";", "%", ":", "?", "*", "(", ")", "Й", "Ц", "У", "К", "Е", "Н", "Г", "Ш", "Щ", "З", "Х", "Ъ", "Ф", "Ы", "В", "А", "П", "Р", "О", "Л", "Д", "Ж", "Э", "Я", "Ч", "С", "М", "И", "Т", "Ь", "Б", "Ю", ","],
 };
 
-const { en, ru, enShift } = data;
+
+const { en, ru, enShift, CapsLock, ruCapsLock, enShiftRu } = data;
 const body = document.querySelector("body");
 const h1 = document.createElement("h1");
 const nouteBook = document.createElement("div");
-const screen = document.createElement("div");
+const screen = document.createElement("textarea");
 const keyboard = document.createElement("div");
-h1.innerHTML = "RSS Virtual Keyboard";
+const p = document.createElement("p");
+h1.innerHTML = "RSS Virtual Keyboard For Windows OS";
+p.innerHTML = "Change Language 'Shift'+'Alt'";
 nouteBook.setAttribute("class", "noute-book");
 screen.setAttribute("class", "screen");
 keyboard.setAttribute("class", "keyboard");
 
 let keyboardBooling = false;
+let capsLockBooling = true;
+let lenguage = en;
 
 
 function main() {
-    let lenguage = en;
+    lenguage = localStorage.getItem("len") === "en" ? lenguage = en : lenguage = ru;
+
 
     if (!keyboardBooling) { buldkeyboard(lenguage); }
 
     const keys = document.querySelectorAll(".key");
+
     document.addEventListener("keydown", (e) => {
-        if (e.key === "Tab") {
+        if (e.key === "Tab" || e.key === "Alt") {
             e.preventDefault();
         }
+        if (e.code === "CapsLock") {
+            document.querySelector("#CapsLock").classList.add("press");
+            if (capsLockBooling) {
+                e.stopPropagation();
+                capsLockBooling = false;
+                let letter;
+                let letterData;
+                if (lenguage === en) {
+                    letter = document.querySelectorAll(".letter");
+                    letterData = CapsLock;
+                } else {
+                    letter = document.querySelectorAll(".letter-ru");
+                    letterData = ruCapsLock;
+                }
+                letter.forEach((el, ind) => {
+                    el.innerHTML = letterData[ind];
+                    // console.log(CapsLock[ind].key);
+                });
 
-        if (e.shiftKey) {
-            console.log('shiftKey');
-            while (keyboard.firstChild) {
-                keyboard.removeChild(keyboard.firstChild);
             }
-            keyboardBooling = true;
-            buldkeyboard(enShift);
-            main();
+            else {
+                document.querySelector("#CapsLock").classList.add("press");
+                capsLockBooling = true;
+                while (keyboard.firstChild) {
+                    keyboard.removeChild(keyboard.firstChild);
+                }
+                main();
+            }
         }
-        presKey(e, keys);
 
-    });
+        if (e.key === "Shift") {
+            let change;
+            let changeData;
+            if (lenguage === en) {
+                change = document.querySelectorAll(".change");
+                changeData = enShift;
+            } else {
+                change = document.querySelectorAll(".change-ru");
+                changeData = enShiftRu;
+            }
+            change.forEach((el, ind) => {
+                el.innerHTML = changeData[ind];
+                // console.log(CapsLock[ind].key);
+            });
+        }
+
+        presKey(e, keys);
+    }, false);
+
+
     document.addEventListener("keyup", (e) => {
         upKey(e, keys);
     });
 
-
 }
 
+
+function changeLanguage(func, ...keys) {
+    let pressed = new Set();
+
+    document.addEventListener("keydown", function (e) {
+        pressed.add(e.key);
+
+        for (let key of keys) {
+            if (!pressed.has(key)) {
+                return;
+            }
+        }
+        pressed.clear();
+        func();
+    });
+
+    document.addEventListener("keyup", function (e) {
+        pressed.delete(e.code);
+    });
+}
+
+changeLanguage(() => {
+    lenguage === en ? lenguage = ru : lenguage = en;
+    let len = lenguage === en ? 'en' : 'ru';
+    localStorage.setItem("len", len);
+    main();
+}, "Shift", "Alt");
 
 
 function buldkeyboard(lenguage) {
@@ -1005,7 +767,7 @@ function buldkeyboard(lenguage) {
         keyboard.append(key);
     }
     nouteBook.append(screen, keyboard);
-    body.append(h1, nouteBook);
+    body.append(h1, nouteBook, p);
 
 }
 
@@ -1017,13 +779,19 @@ function presKey(e, keys) {
 
         if (keyCode === e.code) {
             el.classList.add("press");
+
         }
     });
 }
 
 
-
 function upKey(e, keys) {
+    if (e.key === "Shift") {
+        while (keyboard.firstChild) {
+            keyboard.removeChild(keyboard.firstChild);
+        }
+        main();
+    }
     keys.forEach((el) => {
         const keyCode = el.getAttribute("id");
         if (keyCode === e.code) {
@@ -1036,5 +804,48 @@ function upKey(e, keys) {
         }
     });
 }
+
+
+
 main();
 
+
+
+
+
+
+
+
+
+
+
+// function onKeys(startKey, ...codes) {
+//     let pressed = new Set();
+
+//     document.addEventListener("keydown", (e) => {
+//         pressed.add(e.code);
+
+//         for (let code of codes) {
+//             if (!pressed.has(code)) {
+//                 return;
+//             }
+//         }
+//         pressed.clear();
+//         startKey(e);
+//     });
+//     document.addEventListener("keyup", (e) => {
+//         pressed.delete(e.code);
+//     });
+// }
+
+
+// onKeys((e) => {
+//     // console.log('oooo')
+//     keys.forEach((el) => {
+//         const keyCode = el.getAttribute("id");
+
+//         if (keyCode === e.code) {
+//             el.classList.add("press");
+//         }
+//     });
+// }, "Digit2", "Digit1");
