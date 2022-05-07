@@ -67,7 +67,7 @@ const data = {
             "class": "key change"
         },
         {
-            "key": "<-",
+            "key": "Backspace",
             "id": "Backspace",
             "class": "key dark twokey"
         },
@@ -384,7 +384,7 @@ const data = {
             "class": "key"
         },
         {
-            "key": "<-",
+            "key": "Backspace",
             "id": "Backspace",
             "class": "key dark twokey"
         },
@@ -641,6 +641,7 @@ const data = {
     "enShiftRu": ["Ё", "!", "\"", "№", ";", "%", ":", "?", "*", "(", ")", "Й", "Ц", "У", "К", "Е", "Н", "Г", "Ш", "Щ", "З", "Х", "Ъ", "Ф", "Ы", "В", "А", "П", "Р", "О", "Л", "Д", "Ж", "Э", "Я", "Ч", "С", "М", "И", "Т", "Ь", "Б", "Ю", ","],
 };
 
+alert("Привет Друг! У меня одна проблемма,  это повторный вызов обработчика, если тебе не трудно прошу обновлять если заметил Баг. Я над этим работаю но не могу найти решения. Так же проследи пожалуйчта язык ввода на ПК совподал с виртуальной клавиатурой. Спасибо!");
 
 const { en, ru, enShift, CapsLock, ruCapsLock, enShiftRu } = data;
 const body = document.querySelector("body");
@@ -649,15 +650,20 @@ const nouteBook = document.createElement("div");
 const screen = document.createElement("textarea");
 const keyboard = document.createElement("div");
 const p = document.createElement("p");
+const p2 = document.createElement("p");
 h1.innerHTML = "RSS Virtual Keyboard For Windows OS";
 p.innerHTML = "Change Language 'Shift'+'Alt'";
+p2.innerHTML = "Клавиатура создана в операционной системе Windows";
 nouteBook.setAttribute("class", "noute-book");
 screen.setAttribute("class", "screen");
 keyboard.setAttribute("class", "keyboard");
 
+
+
 let keyboardBooling = false;
 let capsLockBooling = true;
 let lenguage = en;
+let screenText = "";
 
 
 function main() {
@@ -667,6 +673,66 @@ function main() {
     if (!keyboardBooling) { buldkeyboard(lenguage); }
 
     const keys = document.querySelectorAll(".key");
+
+    keys.forEach((el) => {
+        el.addEventListener("mousedown", () => {
+
+            // console.log(el.getAttribute("id"));
+            let eCode = el.getAttribute("id");
+            if (eCode === "CapsLock") {
+                document.querySelector("#CapsLock").classList.add("press");
+                if (capsLockBooling) {
+                    // e.stopPropagation();
+                    capsLockBooling = false;
+                    let letter;
+                    let letterData;
+                    if (lenguage === en) {
+                        letter = document.querySelectorAll(".letter");
+                        letterData = CapsLock;
+                    } else {
+                        letter = document.querySelectorAll(".letter-ru");
+                        letterData = ruCapsLock;
+                    }
+                    letter.forEach((el, ind) => {
+                        el.innerHTML = letterData[ind];
+                    });
+
+                }
+                else {
+                    document.querySelector("#CapsLock").classList.add("press");
+                    capsLockBooling = true;
+                    while (keyboard.firstChild) {
+                        keyboard.removeChild(keyboard.firstChild);
+                    }
+                    main();
+                }
+            }
+
+            if (eCode === "ShiftLeft" || eCode === "ShiftRight") {
+                let change;
+                let changeData;
+                if (lenguage === en) {
+                    change = document.querySelectorAll(".change");
+                    changeData = enShift;
+                } else {
+                    change = document.querySelectorAll(".change-ru");
+                    changeData = enShiftRu;
+                }
+                change.forEach((el, ind) => {
+                    el.innerHTML = changeData[ind];
+                    // console.log(CapsLock[ind].key);
+                });
+            }
+            presKey(eCode, keys);
+        });
+
+        el.addEventListener("mouseup", () => {
+            let eCode = el.getAttribute("id");
+            console.log("mouseup");
+            upKey(eCode, keys);
+        });
+    });
+
 
     document.addEventListener("keydown", (e) => {
         if (e.key === "Tab" || e.key === "Alt") {
@@ -688,7 +754,6 @@ function main() {
                 }
                 letter.forEach((el, ind) => {
                     el.innerHTML = letterData[ind];
-                    // console.log(CapsLock[ind].key);
                 });
 
             }
@@ -717,13 +782,14 @@ function main() {
                 // console.log(CapsLock[ind].key);
             });
         }
-
-        presKey(e, keys);
+        // const screenWin = document.querySelector(".screen");
+        // console.log(screenWin.innerHTML = `asss\nvvvvv`);
+        presKey(e.code, keys);
     }, false);
 
 
     document.addEventListener("keyup", (e) => {
-        upKey(e, keys);
+        upKey(e.code, keys);
     });
 
 }
@@ -751,7 +817,7 @@ function changeLanguage(func, ...keys) {
 
 changeLanguage(() => {
     lenguage === en ? lenguage = ru : lenguage = en;
-    let len = lenguage === en ? 'en' : 'ru';
+    let len = lenguage === en ? "en" : "ru";
     localStorage.setItem("len", len);
     main();
 }, "Shift", "Alt");
@@ -767,18 +833,44 @@ function buldkeyboard(lenguage) {
         keyboard.append(key);
     }
     nouteBook.append(screen, keyboard);
-    body.append(h1, nouteBook, p);
+    body.append(h1, nouteBook, p, p2);
 
 }
 
 
-function presKey(e, keys) {
 
+function presKey(e, keys) {
     keys.forEach((el) => {
         const keyCode = el.getAttribute("id");
 
-        if (keyCode === e.code) {
+        if (keyCode === e) {
+            screen.focus();
+            // screen.selectionStart = screen.value.length;
             el.classList.add("press");
+            if (el.classList.contains("letter") || el.classList.contains("change") || el.classList.contains("letter-ru") || el.classList.contains("change-ru")) {
+                screenText += `${el.innerHTML}`;
+                screen.innerHTML = screenText;
+                // screenText.focus();
+                // screenText.selectionStart = screenText.value.length;
+            }
+            if (e === "Tab") {
+                screenText += "&nbsp;&nbsp;&nbsp;&nbsp;";
+
+                screen.innerHTML = screenText;
+            }
+            if (e === "Space") {
+                screenText += "&nbsp;";
+
+                screen.innerHTML = screenText;
+            }
+            if (e === "Backspace") {
+                screenText ? screenText = screenText.slice(0, screenText.length - 1) : screenText;
+                screen.innerHTML = screenText;
+            }
+            if (e === "Enter") {
+                screenText += "\n";
+                screen.innerHTML = screenText;
+            }
 
         }
     });
@@ -786,7 +878,7 @@ function presKey(e, keys) {
 
 
 function upKey(e, keys) {
-    if (e.key === "Shift") {
+    if (e === "ShiftLeft" || e === "ShiftRight") {
         while (keyboard.firstChild) {
             keyboard.removeChild(keyboard.firstChild);
         }
@@ -794,7 +886,7 @@ function upKey(e, keys) {
     }
     keys.forEach((el) => {
         const keyCode = el.getAttribute("id");
-        if (keyCode === e.code) {
+        if (keyCode === e) {
 
             el.classList.remove("press");
             el.classList.add("press-up");
@@ -815,37 +907,3 @@ main();
 
 
 
-
-
-
-
-// function onKeys(startKey, ...codes) {
-//     let pressed = new Set();
-
-//     document.addEventListener("keydown", (e) => {
-//         pressed.add(e.code);
-
-//         for (let code of codes) {
-//             if (!pressed.has(code)) {
-//                 return;
-//             }
-//         }
-//         pressed.clear();
-//         startKey(e);
-//     });
-//     document.addEventListener("keyup", (e) => {
-//         pressed.delete(e.code);
-//     });
-// }
-
-
-// onKeys((e) => {
-//     // console.log('oooo')
-//     keys.forEach((el) => {
-//         const keyCode = el.getAttribute("id");
-
-//         if (keyCode === e.code) {
-//             el.classList.add("press");
-//         }
-//     });
-// }, "Digit2", "Digit1");
