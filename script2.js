@@ -677,12 +677,11 @@ function main() {
     keys.forEach((el) => {
         el.addEventListener("mousedown", () => {
 
-            // console.log(el.getAttribute("id"));
+
             let eCode = el.getAttribute("id");
             if (eCode === "CapsLock") {
                 document.querySelector("#CapsLock").classList.add("press");
                 if (capsLockBooling) {
-                    // e.stopPropagation();
                     capsLockBooling = false;
                     let letter;
                     let letterData;
@@ -720,7 +719,6 @@ function main() {
                 }
                 change.forEach((el, ind) => {
                     el.innerHTML = changeData[ind];
-                    // console.log(CapsLock[ind].key);
                 });
             }
             presKey(eCode, keys);
@@ -779,11 +777,8 @@ function main() {
             }
             change.forEach((el, ind) => {
                 el.innerHTML = changeData[ind];
-                // console.log(CapsLock[ind].key);
             });
         }
-        // const screenWin = document.querySelector(".screen");
-        // console.log(screenWin.innerHTML = `asss\nvvvvv`);
         presKey(e.code, keys);
     }, false);
 
@@ -850,8 +845,6 @@ function presKey(e, keys) {
             if (el.classList.contains("letter") || el.classList.contains("change") || el.classList.contains("letter-ru") || el.classList.contains("change-ru")) {
                 screenText += `${el.innerHTML}`;
                 screen.innerHTML = screenText;
-                // screenText.focus();
-                // screenText.selectionStart = screenText.value.length;
             }
             if (e === "Tab") {
                 screenText += "&nbsp;&nbsp;&nbsp;&nbsp;";
