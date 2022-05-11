@@ -864,6 +864,22 @@ function presKey(e, keys) {
                 screenText += "\n";
                 screen.innerHTML = screenText;
             }
+            if (e === "ArrowLeft") {
+                screenText = screenText + "&lt;";
+                screen.innerHTML = screenText;
+            }
+            if (e === "ArrowRight") {
+                screenText = screenText + "&#62;";
+                screen.innerHTML = screenText;
+            }
+            if (e === "ArrowUp") {
+                screenText = screenText + "&and;";
+                screen.innerHTML = screenText;
+            }
+            if (e === "ArrowDown") {
+                screenText = screenText + "&or;";
+                screen.innerHTML = screenText;
+            }
 
         }
     });
